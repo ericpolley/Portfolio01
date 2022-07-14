@@ -1,0 +1,193 @@
+/* font color and font for the whole page */
+* {
+    color: bisque;
+    
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Add a background, make it not move */
+body {
+    background-image: url("images2/web-design-2906159_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+/* center and change the size of the main heading font */
+h1 {
+    font-size: 250%;
+    margin: auto;
+}
+/* change font color of the links */
+a {
+    color: rgb(255, 196, 0);
+}
+/* center and change the size of the second heading font */
+h2 {
+    padding: auto;
+    margin: 8px;
+    font-size: 200%;
+    text-align: center;
+}
+/* make text small */
+.smltext {
+    font-size: 70%;
+    margin: 10px 0 15px 0;
+}
+/* change the color of font in a list */
+li {
+    color: rgb(200, 170, 140);
+}
+
+/* apply just center text. i will use these smaller classes more often */
+.centered {
+    text-align: center;
+}
+/* bring item to the right with some light padding, from the right */
+.righty {
+    float: right;
+    padding-right: 8%;
+    color: rgb(200, 170, 140);
+}
+/* bring item to the left with some light padding, from the left */
+.lefty {
+    float: left;
+    padding-right: 8%;
+    color: rgb(200, 170, 140);
+}
+
+/* The bold boundry hr seporator lines between sections in the website */
+.hr1 {
+    width: 80%;
+    margin: 0 0 20px 0;
+    padding: auto;
+    height: 1px;
+    background-color: peachpuff;
+    color: rgb(255, 218, 185);  
+}
+/* The bold boundry hr seporator lines between sections in the website */
+.hr2 {
+    width: 60%;
+    margin: 10px auto 0 auto;
+    padding: 0;
+    height: 3px;
+    background-color: peachpuff;
+    color: rgb(255, 218, 185);  
+}
+
+/* All of the edits for images that make the nav buttons */
+.allimages {  
+    max-width:  90%; 
+    padding: auto;
+    margin: auto;
+}
+/* I feel I should have applied most of these filers in the allimages
+class. just to make it easier to look at and simpler to control */
+.imgyellow {    
+    filter: grayscale(200%) opacity(75%) drop-shadow(0 0 0 yellow) brightness(125%);   
+}
+.imgblue {
+    filter: grayscale(200%) opacity(75%) drop-shadow(0 0 0 blue) brightness(125%);
+}
+.imgpeach {
+    filter: grayscale(200%) opacity(75%) drop-shadow(0 0 0 peachpuff) brightness(125%);
+}
+.imggreen {
+    filter: grayscale(200%) opacity(75%) drop-shadow(0 0 0 lime) brightness(125%);
+}
+.imgorange {
+    filter: grayscale(200%) opacity(75%) drop-shadow(0 0 0 orange) brightness(125%);
+}
+
+/* this controls the maroon, white bordered; biggest box that everything else is inside of. 
+has a simple border, rgba with some transparency. */
+.boxtop {
+    
+    padding: 10px;
+    width: auto;
+    max-width: 70%;
+    min-width: 70%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(31, 11, 20, 80%);
+    border: 5px solid rgb(255, 235, 205);
+}
+/* this stores location for the projects in the portfolio section */
+.project1 {
+    border: 5px solid blanchedalmond;
+    width: 200px;
+    max-width: 30%;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 10%;
+    margin-top: 0;
+    padding-top: 0;
+    float: left;
+    
+}
+/* this stores location for the project code in the portfolio section */
+.project1code {
+    border: 5px;
+    width: 200px;
+    max-width: 30%;
+    padding: 5px;
+    margin: 10px;
+    margin-right: 10%;
+    margin-top: 0;
+    padding-top: 0;
+    float: right;
+
+}
+/* makes text bold. used mostly for the skills and cert titles */
+.bold {
+    font-size: 120%;
+    font-weight: 600;
+
+}
+/* the bar of identicle images. this box contains the 5 grayscale to color images above */
+.boxnav {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding: 10px;
+    border: 5px solid blanchedalmond;
+    max-width: 90%;
+    min-width: 70%;
+    width: 500px;
+    height: 5px;
+    margin:20px auto 25px auto;
+    background-color: rgba(0, 0, 0, 20%);
+ 
+}
+/* this box contains all my cert info. */
+.boxcert {
+    padding: 8px;
+    width: 600px;
+    max-width: 80%;
+    min-width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 50%);
+    
+}
+/* this box contains all my portfolio info. */
+.boxportfolio {
+
+    padding: 8px;
+    width: 600px;
+    height: 280px;
+    max-width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 50%);
+    
+}
+/* this is applied to the text in a list. may be redundent due to the li rule above*/
+.certlist {
+    margin: auto;
+    padding: auto;
+    border: 0;
+    
+}
+
+
+   
+   
+

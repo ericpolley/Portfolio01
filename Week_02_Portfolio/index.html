@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Standard heading stuff with a link to the css file.-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head> 
+    <body>
+      <!-- the boxtop div controls the maroon transparent background box -->
+      <div class="boxtop">
+        <h1 class="centered">Eric Polley</h1>
+        <p class="centered"><a href="mailto:ericpolley@live.com" subject="subject text"
+            >ericpolley@live.com</a
+          ></p>
+        <hr class="hr2" />
+        <br />
+        <!-- The heading nav buttons with portfolio project links-->
+        <div class="boxnav">
+          <a href="Week_01/firstsite.html" title="My first website"
+            ><img
+              class="imgyellow allimages"
+              src="css\images2\tv-2223047_1280.png"
+          /></a>
+          <a href="index.html" title="This website"
+            ><img
+              class="imgblue allimages"
+              src="css\images2\tv-2223047_1280.png"
+          /></a>
+          <a href="#skills" title="Skills"
+            ><img
+              class="imgorange allimages"
+              src="css\images2\tv-2223047_1280.png"
+          /></a>
+          <a href="#certlist" title="Certificates"
+            ><img
+              class="imggreen allimages"
+              src="css\images2\tv-2223047_1280.png"
+          /></a>
+          <a href="index.html" title="This website"
+            ><img
+              class="imgpeach allimages"
+              src="css\images2\tv-2223047_1280.png"
+          /></a>
+        </div>
+        <br />
+        <p class="smltext centered">Click a button above to view a project</p>
+<!-- The porfolio boxes are stacked on top of eachother without a border appearing seamless-->
+        <br />
+        <h2>Portfolio Projects</h1>
+        <div class="boxportfolio">
+          <h2>My first website</h2>
+          <a href="Week_01/firstsite.html" title="my first website">
+            <img
+              src="css\images2\Project -html landing page.png"
+              class="project1"
+          /></a>
+          <a href="firstwebsite-code.html" title="view the code">
+            <img src="css\images2\CODEBUTTON.png" class="project1code" />
+          </a>
+        </div>
+        <div class="boxportfolio">
+          <h2>Form Sample sheet</h2>
+          <a href="index.html" title="This website">
+            <img
+              src="css\images2\Project -html landing page2.png"
+              class="project1"
+          /></a>
+          <a href="portfolio-code.html" title="view the code">
+            <img src="css\images2\CODEBUTTON.png" class="project1code" />
+          </a>
+          <br />
+        </div>
+        <br />
+        <!-- A copy of the cert list format. i am using the same design for skills. 
+  Changing the design in CSS will
+   will change both boxes format-->
+        <div class="boxcert">
+          <ul id="skills" class="skills">
+            <h2>Skills <span class="righty smltext">Date obtained</span></h2>
+            <hr class="hr1" />
+            <li>
+              <span class="bold">HTML and CSS Web Design</span>
+              <span class="righty">2022</span>
+              <br />
+              Website design from start to finish
+            </li>
+            <li>
+              <span class="bold">3D Blender Modeling and Animation</span>
+              <span class="righty">2019</span>
+              <br />
+              Modeling, Sculpting, Texturing, Special Effects, and Animation
+            </li>
+            <li>
+              <span class="bold">Photoshop Illustration and Photo Editing</span>
+              <span class="righty">2018</span>
+              <br />
+              Illustration, Design, Covers, Banners, and more
+            </li>
+            <li>
+              <span class="bold">2D Animate CC Animation</span>
+              <span class="righty">2015</span>
+              <br />
+              Illustration, Vector Design, Animation, Effects, and more
+            </li>
+            <li>
+              <span class="bold">Video Editing</span>
+              <span class="righty">2010</span>
+              <br />
+              Premiere Pro, After Effects; Editing, Effects, and more
+            </li>
+          </ul>
+        </div>
+        <br />
+        <!-- The Cert list with flexbox-->
+        <div class="boxcert">
+          <ul id="certlist" class="certlist">
+            <h2>
+              Certificates<span class="righty smltext">Date obtained</span>
+            </h2>
+            <hr />
+            <li>
+              <span class="bold">Responsive Web Design </span>
+              <span class="righty">July 12, 2022</span>
+              <br />
+              freecodecamp Certificate
+            </li>
+            <li>
+              <span class="bold">Learn to Animate:Animation Principals</span>
+              <span class="righty">Sep 20, 2021</span>
+              <br />
+              Programming Hub Certificate
+            </li>
+            <li>
+              <span class="bold">C# (C Sharp) Certification </span>
+              <span class="righty">Sep 16 2021</span>
+              <br />
+              Programming Hub Certificate
+            </li>
+            <li>
+              <span class="bold">Blender School Certificate</span>
+              <span class="righty">Nov 22, 2021</span>
+              <br />
+              Render Craft - Udemy
+            </li>
+          </ul>
+        </div>
+        <br />
+        <!-- a general footer, I did not use a footer element to keep 
+        my footer info inside of the boxtop div-->
+        <p class="boxcert centered">
+          Eric Polley <br />
+          <a href="mailto:ericpolley@live.com" subject="subject text"
+            >ericpolley@live.com</a
+          >
+          <br />
+          1(509)868-2692
+        </p>
+      </div>
+    </body>
+</html>
